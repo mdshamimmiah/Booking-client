@@ -1,3 +1,6 @@
+
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
@@ -6,16 +9,15 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAcSwt7MbmLHtTVcO59ppufwzF-yW69Fms",
-  authDomain: "booking-room-a514f.firebaseapp.com",
-  projectId: "booking-room-a514f",
-  storageBucket: "booking-room-a514f.appspot.com",
-  messagingSenderId: "1017275376870",
-  appId: "1:1017275376870:web:83cfa25734ee97f63a0727"
+  apiKey: "AIzaSyB6BhzdJCQ_x-liq75iSHtD4OIknEsmUPw",
+  authDomain: "task-management-a8bdd.firebaseapp.com",
+  projectId: "task-management-a8bdd",
+  storageBucket: "task-management-a8bdd.appspot.com",
+  messagingSenderId: "68272140661",
+  appId: "1:68272140661:web:c2bf1bd5595434fa09e33c"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 const auth = getAuth(app);
 export default auth;
