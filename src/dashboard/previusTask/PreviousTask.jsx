@@ -19,7 +19,7 @@ const PreviousTask = () => {
     // console.log(data);
    
     return (
-        <div className="ml-6">
+        <div className="ml-5">
        <div className="grid grid-cols-1 gap-3">
        {
        data?.map((item) => <PriviousCard key={item._id} item={item}></PriviousCard>)
